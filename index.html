@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <img class="image-gradient" src="gradient.png" alt="Gradient">
+    <div class="layer-blur"></div>
+    <div class="container">
+        <header>
+            <h1 data-aos="fade-down" data-aos-duration="1500" class="logo">ENALI</h1>
+
+            <nav>
+                <a data-aos="fade-down" data-aos-duration="1500" href="#">COMPANY</a>
+                <a data-aos="fade-down" data-aos-duration="2000" href="#">FEATURE</a>
+                <a data-aos="fade-down" data-aos-duration="2300" href="#">RESOURCE</a>
+                <a data-aos="fade-down" data-aos-duration="2700" href="#">DOCS</a>
+
+            </nav>
+            <button data-aos="fade-down" data-aos-duration="1500" class="btn-signing">SIGNING</button>
+        </header>
+        <main>
+            <div data-aos="fade-down" data-aos-duration="1500" class="content">
+                <div class="tag-box">
+                    <div class="tag">INTRODUCING &wedbar;</div>
+                </div>
+                <h1>CARE FOR<br>DEVELOPERS</h1>
+
+                <p data-aos="fade-down" data-aos-duration="1500" class="description">
+                    Hi, this is the description of this website that i have created with all my efforts and hardwork.
+
+                </p>
+
+                <div data-aos="fade-down" data-aos-duration="1500" class="buttons">
+                    <a href="#" class="btn-get-started">Documentation &gt;</a>
+                    <a href="#" class="btn-signing-main">Getstarted &gt;</a>
+                </div>
+            </div>
+        </main>
+
+        <model-viewer class="robot-3d" src="michi_bot.glb" camera-controls auto-rotate shadow-intensity="1"
+            exposure="1.2"></model-viewer>
+    </div>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
